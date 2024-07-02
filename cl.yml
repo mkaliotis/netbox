@@ -35,7 +35,7 @@ object_types: dcim.site
 name: "SNMP Dashboard"
 weight: 100
 enabled: true
-link_url: "https://portal.kentik.eu/v4/core/quick-views/sites/{{ object.cf.kentikSiteID }}/traffic"
+link_url: "https://portal.kentik.eu/v4/library/dashboards/{{ object.role.cf.kentikSnmpDashboard }}/guided?device={{ object }}"
 link_text: "SNMP Metrics Overview"
 group_name: "Kentik"
 new_window: true
