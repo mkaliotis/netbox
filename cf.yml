@@ -1,0 +1,33 @@
+---
+name: "kentikDeviceID"
+type: "integer"
+search_weight: 1000
+filter_logic: "loose"
+weight: 100
+object_types: dcim.device
+label: "Kentik Device ID"
+ui_visible: "always"
+description: "Device ID in Kentik Portal"
+
+---
+name: "kentikSiteID"
+type: "integer"
+search_weight: 1000
+filter_logic: "loose"
+weight: 100
+object_types: dcim.site
+label: "Kentik Site ID"
+ui_visible: "always"
+description: "Site ID in Kentik Portal"
+
+---
+name: "kentikSnmpDashboard"
+type: "integer"
+search_weight: 1000
+filter_logic: "loose"
+weight: 100
+object_types: dcim.devicerole
+label: "Kentik Dashboard for SNMP Metrics"
+ui_visible: "if-set"
+description: "Kentik Dashboard for SNMP Metrics"
+
