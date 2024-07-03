@@ -42,3 +42,16 @@ new_window: true
 button_class: "ghost-dark"
 object_types: dcim.device
 
+---
+name: "ASN Quick View"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/core/quick-views/asn/{{ object }}/traffic"
+link_text: "ASN Quick View"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+object_types: ipam.asn
+
+
+
