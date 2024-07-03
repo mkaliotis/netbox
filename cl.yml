@@ -53,5 +53,30 @@ new_window: true
 button_class: "ghost-dark"
 object_types: ipam.asn
 
+---
+name: "IP Address Quick View"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/core/quick-views/ip/{{ object }}/traffic"
+link_text: "IP Address Quick View"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+object_types: ipam.ipaddress
+
+---
+name: "IP Prefix Quick View"
+weight: 100
+enabled: true
+link_url: "https://portal.kentik.eu/v4/core/quick-views/route-prefix/{{ object }}%20(%20-%20)"
+link_text: "IP Prefix Quick View"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+object_types: ipam.prefix
+
+
+
+
 
 
