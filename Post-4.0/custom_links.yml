@@ -143,3 +143,15 @@ group_name: "Kentik"
 new_window: true
 button_class: "ghost-dark"
 object_types: ipam.asn
+
+---
+# AS Group for an RIR as Group name
+name: "RIR - Traffic Overview"
+weight: 10
+enabled: true
+link_url: "https://portal.kentik.com/v4/core/quick-views/asn/{{ object }}/traffic"
+link_text: "{% if 'kentikASGroup' in object.tags.names() %}{{ object }} Traffic Overview{% endif %}"
+group_name: "Kentik"
+new_window: true
+button_class: "ghost-dark"
+object_types: ipam.rir
