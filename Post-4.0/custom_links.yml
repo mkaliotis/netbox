@@ -138,7 +138,7 @@ name: "AS Group (RIR) - Traffic Overview"
 weight: 30
 enabled: true
 link_url: "https://portal.kentik.com/v4/core/quick-views/asn/{{ object.rir }}/traffic"
-link_text: "{% if 'kentikNMS' in object.rir.tags.names() %}{{ object.rir }} Traffic Overview{% endif %}"
+link_text: "{% if 'kentikASGroup' in object.rir.tags.names() %}{{ object.rir }} Traffic Overview{% endif %}"
 group_name: "Kentik"
 new_window: true
 button_class: "ghost-dark"
