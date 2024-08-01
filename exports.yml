@@ -1,1 +1,6 @@
 #Testing
+{% for cf in queryset %}
+---
+{{ cf.name }}
+object_types: {% for cfo in cf.object_types.all() %}{{ cfo.app_label }}.{{ cfo.model }}{{ ", " if not loop.last else "" }}{% endfor %}
+{% endfor %}
