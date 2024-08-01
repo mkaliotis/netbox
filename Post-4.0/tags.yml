@@ -9,3 +9,9 @@ name: "kentikNMS"
 slug: "kentiknms"
 color: "2196f3"
 description: "Object is part of Kentik NMS"
+
+---
+name: "kentikASGroup"
+slug: "kentikasgroup"
+color: "cddc39"
+description: "RIR represents an AS Group in Kentik"
